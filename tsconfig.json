@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["node", "dotenv/config"],
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
